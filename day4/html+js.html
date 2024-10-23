@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <script>
+        function myfun()
+        {
+            var a=parseInt(f1.n1.value);
+            var b=parseInt(f1.n2.value);
+            var c=a+b;
+            document.getElementById("content").innerHTML="Result is "+c;
+        }
+    </script>
+    <style>
+        form{
+           margin: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form name="f1">
+        <h1>CALCULATOR</h1>
+        <label>Enter Number:<input type="number" placeholder="Enter your value" name="n1"></label><br><br>
+        <label>Enter Number:<input type="number" placeholder="Enter your value" name="n2"></label><br><br>
+        <input type="button" value="ADD" onclick="myfun()"><br>
+        <h3 id="content">Result</h3>
+    </form>
+</body>
+</html>
