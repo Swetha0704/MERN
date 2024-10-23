@@ -1,0 +1,31 @@
+.main-container{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.one{
+    height: 500px;
+    width: 450px;
+    background-color: pink;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img{
+    padding-left: 50px;
+}
+.inner{
+    width: 45%;
+    height: 180px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+.inner>img{
+    height: 140px;
+    width: 150px;
+    padding: 20px;
+}

@@ -1,0 +1,45 @@
+p{
+    color: blueviolet;
+    background-color: beige;
+    font-size: 34px;
+}
+.one{
+    background-color: yellow;
+    color: orange;
+    font-size: 76px;
+}
+.box2{
+    background-color: rgb(17, 55, 55);
+    color: beige;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+.flag1{
+    width: 400px;
+    height: 100px;
+    background-color: rgba(254, 131, 7, 0.998);
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.flag2{
+    width: 400px;
+    height: 100px;
+    background-color:#ffffff;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-image: url('images/chakra2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.flag3{
+    width: 400px;
+    height: 100px;
+    background-color:green;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
